@@ -1,5 +1,7 @@
 # Export Windows Drivers Script - export-drivers.ps1 - en-us - 🇺🇲
 
+(Para instruções em Português do Brasil continue descendo a página! - To Brazilian Portuguese instructions, go down in this page)
+
 A small and simple PowerShell script to export third-party drivers from a Windows installation (Server or Desktop) into a structured folder for backup, deployment, or migration purposes.
 
 ## Features
