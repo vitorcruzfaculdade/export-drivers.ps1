@@ -33,13 +33,20 @@ Um pequeno e simples script em PowerShell para exportar drivers de terceiros de 
 ## Como Usar
 
 1. Abra o **PowerShell como Administrador**
-2. Execute o script:
+
+2. Se necessário, permita a execução de scripts temporariamente:
+
+   ```powershell
+   Set-ExecutionPolicy Unrestricted -Scope Process -Force
+   ```
+   
+3. Execute o script:
 
    ```powershell
    .\Export-Drivers.ps1
    ```
 
-3. Os drivers serão exportados para:
+4. Os drivers serão exportados para:
 
    ```text
    C:\DriverBackup
