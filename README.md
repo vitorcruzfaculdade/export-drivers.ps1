@@ -26,3 +26,18 @@ A PowerShell script to export third-party drivers from a Windows installation (S
 
    ```powershell
    .\Export-Drivers.ps1
+Drivers will be exported to: C:\DriverBackup
+
+To install them on another machine:
+pnputil /add-driver "C:\DriverBackup\*.inf" /subdirs /install
+
+Or inject into a Windows image:
+dism /Image:D:\Mount /Add-Driver /Driver:C:\DriverBackup /Recurse
+
+License
+This project is licensed under the GPL-3.0 License.
+Feel free to use, adapt, and redistribute with credit.
+
+Author
+Vitor Cruz
+GitHub Profile
