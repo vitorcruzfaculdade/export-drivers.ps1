@@ -1,6 +1,6 @@
 # Export Windows Drivers Script
 
-A PowerShell script to export third-party drivers from a Windows installation (Server or Desktop) into a structured folder for backup, deployment, or migration purposes.
+A small and simple PowerShell script to export third-party drivers from a Windows installation (Server or Desktop) into a structured folder for backup, deployment, or migration purposes.
 
 ## Features
 
